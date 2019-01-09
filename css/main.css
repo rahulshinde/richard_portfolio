@@ -1,0 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'Fivo Sans';
+  src: url("../fonts/fivosansmodern-bold-webfont.woff2") format("woff2"), url("../fonts/fivosansmodern-bold-webfont.woff") format("woff");
+  font-weight: 800;
+  font-style: normal; }
+@font-face {
+  font-family: 'Fivo Sans';
+  src: url("../fonts/fivosansmodern-regular-oblique-webfont.woff2") format("woff2"), url("../fonts/fivosansmodern-regular-oblique-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: italic; }
+@font-face {
+  font-family: 'Fivo Sans';
+  src: url("../fonts/fivosansmodern-regular-webfont.woff2") format("woff2"), url("../fonts/fivosansmodern-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+html {
+  font-size: 36px; }
+
+#site {
+  background-color: #00f;
+  margin: 5rem 10%;
+  color: #fff;
+  font-family: 'Helvitica', sans-serif;
+  /*font-weight: bold;*/
+  letter-spacing: 0.08em;
+  line-height: 1.3em;
+  text-align: justify; }
+  #site header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 10%;
+    margin-top: 1.5rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: #00f;
+    z-index: 100;
+    height: 5rem;
+    overflow: hidden;
+    text-align: center; }
+  #site a:link,
+  #site a:visited {
+    position: relative;
+    color: #fff;
+    text-decoration: none; }
+  #site a:hover {
+    color: yellow; }
+  #site #pbw_logo,
+  #site #contact_info,
+  #site #globe,
+  #site #site_credit {
+    display: inline-block;
+    vertical-align: middle; }
+  #site #pbw_logo {
+    width: 20%; }
+  #site #contact_info {
+    top: 4rem;
+    left: 50%;
+    text-align: center;
+    margin: 0 4%; }
+  #site #site_credit {
+    margin: 0 0 0 4%; }
+  #site #globe {
+    right: 10%;
+    width: 10%;
+    border: 1px solid #fff;
+    border-radius: 50%; }
+  #site:before, #site:after {
+    content: '';
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #00f; }
+  #site:before {
+    top: 0; }
+  #site:after {
+    bottom: 0; }
+  #site #pbw_logo,
+  #site #globe {
+    box-shadow: 0.12rem 0.12rem 0px #000; }
+  #site .largest,
+  #site .large,
+  #site .small,
+  #site a:link,
+  #site a:visited {
+    text-shadow: 0.12rem 0.12rem 0px #000; }
+  #site .largest {
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: -0.03em;
+    margin: 2rem 0 1rem 0;
+    font-weight: bold; }
+  #site .large {
+    font-size: 1rem; }
+  #site .small_centered {
+    display: inline-block;
+    line-height: 1em;
+    vertical-align: middle;
+    margin-bottom: 0.2rem;
+    font-size: 0.5rem;
+    text-transform: uppercase; }
+  #site .small {
+    font-size: 0.5rem;
+    line-height: 1.3em; }
+  #site #projects_container {
+    margin-top: 8rem; }
+
+/*# sourceMappingURL=main.css.map */
